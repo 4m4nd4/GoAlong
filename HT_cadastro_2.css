@@ -1,0 +1,63 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(90deg, #42F5E0, #3CFA79);
+}
+div{
+	font-family: Century Gothic;
+	font-size: 22px;
+	text-align: center;
+	color: white;
+	background-color: black;
+}
+.tela-cadastro{
+	position: relative;
+	left: 10%;
+	background-color: black;
+	font-family: Century Gothic;
+	font-weight: bolder;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	color: white;
+	width: 80%;
+	box-sizing: border-box;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.info{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	position: relative;
+	background-color: black;
+	width: 80%;
+	margin: 5%;
+	top: 30%;
+	left: 45%;
+	bottom: 10%;
+	transform: translate(-50%);
+	padding: 60px;
+	border-radius: 15px;
+	color: white;
+	text-align: left;
+}
+button{
+	background-color: #00BD84;
+    padding: 8px;
+    width: 40%;
+    border: none;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+button:hover{
+	background-color: #4EC7AB;
+}
+.título{
+	background-color: #00BD84;
+	color: black;
+}
+a.botao{
+	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    hover: none;
+}

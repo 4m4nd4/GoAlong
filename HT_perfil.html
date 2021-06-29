@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+
+    <link href="HT_perfil_2.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <title>Health Track</title>
+  </head>
+  <body>
+    
+    <main>
+      <div class="título">Go along</div>
+        <header>
+          
+          <button class="btn btn-icon" type="button" data-bs-toggle="offcanvas" data-bs-target="#menu">
+            <i class="bi bi-list"></i>
+          </button>
+
+        </header>
+
+        <aside id="menu" class="offcanvas offcanvas-start" tabindex="-1">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title">Menu</h5>
+
+            <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas"></button>
+          </div>
+
+          <div class="offcanvas-body">
+            <div class="botoes">
+              <button type="button" class="botao">
+                <a class="mudar" href="HT_perfil.html">Perfil</a>
+              </button>
+              <br><br>
+              
+              <button type="button" class="botao">
+                <a class="mudar" href="HT_geral.html">Meus Acompanhamentos</a>
+              </button>
+              <br><br>
+              
+              <button type="button" class="botao">
+                <a class="mudar" href="HT.html">Sair</a>
+              </button>
+              <br><br>
+            </div>
+          </div>
+        </aside>
+    </main>
+
+    <div class="title">Meu perfil</div>
+    <br><br>
+
+    <div class="perfil">
+      <label for="nome">Amora R.</label>
+      <br>
+      <label for="idade">Idade:</label>
+      <label for="idade">25 anos</label>
+      <br><br>
+      <label for="IMC">IMC:</label>
+      <label for="IMC">23,4 kg/m²</label>
+      <br>
+      <label for="peso">Peso:</label>
+      <label for="peso">60 kg</label>
+      <br>
+      <label for="pa">P.A.:</label>
+      <label for="pa">120/80 mmHg</label>
+      <br><br>
+      <button class="lapis"><i class="bi bi-pencil-fill"></i></button>
+    </div>
+
+  </body>
+</html>

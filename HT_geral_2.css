@@ -1,0 +1,158 @@
+body{
+	font-family: Arial, Helvetica, sans-serif;
+	background-image: linear-gradient(90deg, #42F5E0, #3CFA79);
+}
+main{
+	background-color: #00B87D;
+}
+
+header{
+	font-size: 25px;
+	color: white;
+}
+.title{
+	position: relative;
+	left: 10%;
+	background-color: black;
+	font-size: 22px;
+	font-family: Century Gothic;
+	text-align: center;
+	padding: 10px;
+	border: none;
+	color: white;
+	width: 80%;
+	box-sizing: border-box;
+	border-bottom-left-radius: 15px;
+	border-bottom-right-radius: 15px;
+}
+.título{
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 22px;
+	background-color: black;
+	color: white;
+}
+i.bi{
+	font-size: 25px;
+}
+.botao{
+	width: 100%;
+	padding: 5px;
+	border-radius: 10px;
+	background-color: #00BD84;
+	border: none;
+	color: white;
+}
+
+.offcanvas-body{
+	font-family: Century Gothic;
+	font-size: 20px;
+	text-align: center;
+	color: black;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+.offcanvas-header{
+	background-color: #00B87D;
+}
+
+table{
+	text-align: left;
+	background-color: white;
+	border-radius: 10px;
+}
+.tabela{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: relative;
+	width: 80%;
+	position: relative;
+	margin: 5%;
+	top: 30%;
+	left: 45%;
+	bottom: 10%;
+	transform: translate(-50%);
+	padding: 50px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 3;
+}
+label{
+	background-color: white;
+	color: black;
+	text-align: center;
+	font-family: Century Gothic;
+	font-size: 20px;
+	width: 100%;
+	border-radius: 10px;
+}
+.plus{
+	border: none;
+	background-color: #00BD84;
+	border-radius: 10px;
+	height: 40px;
+}
+.plus:hover{
+	background-color: #4EC7AB;
+}
+i{
+	color: black;
+}
+
+.tabela-2{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: relative;
+	width: 90%;
+	position: relative;
+	margin: 5%;
+	top: 30%;
+	left: 45%;
+	bottom: 10%;
+	transform: translate(-50%);
+	padding: 50px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 2;
+}
+.tabela-3{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: relative;
+	width: 90%;
+	position: relative;
+	margin: 5%;
+	top: 30%;
+	left: 45%;
+	bottom: 10%;
+	transform: translate(-50%);
+	padding: 50px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 1;
+}
+.tabela-4{
+	background-color: rgba(0, 0, 0, 0.9);
+	position: relative;
+	width: 90%;
+	position: relative;
+	margin: 5%;
+	top: 30%;
+	left: 45%;
+	bottom: 10%;
+	transform: translate(-50%);
+	padding: 50px;
+	border-radius: 15px;
+	text-align: center;
+	z-index: 0;
+}
+a.mudar{
+	font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    hover: none;
+    text-decoration: none;
+}
+.mudar:hover{
+	color: white;
+}
+button:hover{
+	background-color: #4EC7AB;
+
